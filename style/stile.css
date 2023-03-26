@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+input{
+  position: absolute;
+  size: 3vw;
+  font-size: 2vw;
+  border-radius: 20vw;
+  
+}
+#testo{
+  width: 26VW;
+  left: 33vw;
+}
+#bottone{
+  left: 60vw;
+}
+
+#mappa {
+  position: absolute;
+  top: 3vw;
+  bottom: 0;
+  width: 100%;
+}
+
+#popupContent{
+  font-size: 1vw;
+}
+#popup {
+  size: 2vw;
+  background-color: white;
+  padding: 0.3vw;
+  border-radius: 20vw;
+  border: 0.2vw solid black;
+
+}
+#piu{
+  left: 67vw;
+}
+#meno{
+  left: 70vw;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/ol@v7.2.2/dist/ol.js"></script>
+        <link rel="stylesheet" href="style/stile.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.2.2/ol.css">
+        <title>Mappe 2</title>
+    </head>
+    <body onload="init()">
+        <input name="indirizzo" type="text" placeholder="Inserisci l'indirizzo da cercare" id="testo">
+        <input type="button" value="Cerca" id="bottone" onclick="Cerca()">
+        <input type="button" value="-" id="meno" onclick="meno()">
+        <input type="button" value="+" id="piu" onclick="Piu()">
+        <div id="mappa"></div>
+        <script src="scrip/script.js" async></script>
+    </body>
+</html>
